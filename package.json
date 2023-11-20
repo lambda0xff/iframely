@@ -63,7 +63,8 @@
     "scripts": {
         "test": "npm run test-core-plugins && npm run test-e2e",
         "test-core-plugins": "mocha --exit test/core-plugins.js",
-        "test-e2e": "NODE_ENV=test PORT=8080 mocha --exit test/e2e.js"
+        "test-e2e": "NODE_ENV=test PORT=8080 mocha --exit test/e2e.js",
+        "start": "node server.js"
     },
     "engines": {
         "node": ">=14.0"
